@@ -24,7 +24,5 @@ def jago_post_check(mess):
         time.sleep(100)
         bot.send_message(mess.chat.id, 'Still searching')
 
-    
-    
 if __name__ == '__main__':
     bot.polling(none_stop=True)   
